@@ -1,6 +1,13 @@
 export default {
     router: {
         base: "https://www.godeye.club/websocket-client/",
+        extendRoutes(routes, resolve) {
+            routes.push({
+                name: 'custom',
+                path: '*',
+                component: resolve(__dirname, 'pages/index.vue')
+            })
+        }
     },
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
