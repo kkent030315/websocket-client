@@ -1,0 +1,39 @@
+@import "mixins";
+:root {
+    --color-background: #fff;
+    --color-background-inner: #eee;
+    --color-font: rgb(59, 59, 59);
+    --color-icon: rgb(39, 39, 39);
+    --color-status-online: rgb(108, 160, 29);
+    --color-status-offline: rgb(95, 95, 102);
+    --color-error: rgb(190, 0, 0);
+    --color-modal-background: rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode {
+    --color-background: rgb(25, 44, 56);
+    --color-background-inner: rgb(15, 33, 46);
+    --color-font: rgb(211, 211, 211);
+    --color-icon: #fff;
+    --color-status-online: rgb(169, 252, 46);
+    --color-status-offline: rgb(150, 150, 160);
+    --color-modal-background: rgba(0, 0, 0, 0.4);
+    --color-modal-background: rgba(91, 112, 131, 0.4);
+}
+
+$color-primary: #20ADD5;
+$color-background: var(--color-background);
+$color-background-inner: var(--color-background-inner);
+$color-font: var(--color-font);
+$color-font-inner: #fff;
+$color-border: $color-background-inner;
+$color-border-inner: $color-background;
+$color-positive: rgb(47, 128, 0);
+$color-negative: rgb(0, 89, 255);
+$color-error: var(--color-lose);
+$color-icon: var(--color-icon);
+$color-status-online: var(--color-status-online);
+$color-status-offline: var(--color-status-offline);
+$color-modal-background: var(--color-modal-background);
+$font-family-console: 'Poppins',
+monospace;
