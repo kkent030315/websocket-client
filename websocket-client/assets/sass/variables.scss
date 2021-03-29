@@ -8,6 +8,7 @@
     --color-status-offline: rgb(95, 95, 102);
     --color-error: rgb(190, 0, 0);
     --color-modal-background: rgba(0, 0, 0, 0.4);
+    --color-logo: var(--color-font);
 }
 
 .dark-mode {
@@ -19,6 +20,7 @@
     --color-status-offline: rgb(150, 150, 160);
     --color-modal-background: rgba(0, 0, 0, 0.4);
     --color-modal-background: rgba(91, 112, 131, 0.4);
+    --color-logo: var(--color-font);
 }
 
 $color-primary: #20ADD5;
@@ -26,6 +28,7 @@ $color-background: var(--color-background);
 $color-background-inner: var(--color-background-inner);
 $color-font: var(--color-font);
 $color-font-inner: #fff;
+$color-logo: var(--color-logo);
 $color-border: $color-background-inner;
 $color-border-inner: $color-background;
 $color-positive: rgb(47, 128, 0);
