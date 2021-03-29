@@ -1,6 +1,6 @@
 export default {
     router: {
-        base: "https://www.godeye.club/websocket-client/",
+        base: "./",
         extendRoutes(routes, resolve) {
             routes.push({
                 name: 'custom',
