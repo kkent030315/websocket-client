@@ -1,6 +1,6 @@
 export default {
     router: {
-        base: "./",
+        base: "./websocket-client/",
     },
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
