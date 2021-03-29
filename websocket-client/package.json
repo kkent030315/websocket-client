@@ -12,6 +12,9 @@
     "dependencies": {
         "@nuxtjs/svg": "^0.1.12",
         "core-js": "^3.9.1",
+        "jquery": "^3.6.0",
+        "moment": "^2.29.1",
+        "moment-duration-format": "^2.3.2",
         "nuxt": "^2.15.3",
         "ress": "^3.0.0"
     },

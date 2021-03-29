@@ -3,6 +3,7 @@
     <div class="innerContainer">
       <div class="header-left">
         <WebSocketLogo width="40" height="40" class="header-left__logo" />
+        <p class="header-left__siteTitle">WebSocket Client</p>
       </div>
       <div class="header-right">
         <ToggleTheme />
@@ -32,6 +33,7 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid $color-border;
 
   .innerContainer {
     justify-content: center;
@@ -42,6 +44,7 @@ export default {
   &-right {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   &-left {
@@ -51,6 +54,11 @@ export default {
       color: $color-logo;
       fill: $color-logo;
       margin: 10px;
+    }
+
+    &__siteTitle {
+      white-space: nowrap;
+      font-size: 1.2rem;
     }
   }
 

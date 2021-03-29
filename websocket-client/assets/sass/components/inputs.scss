@@ -1,1 +1,15 @@
-@import "variables";
+@import "../variables";
+.normalInput {
+    background: $color-background-inner;
+    border: 1px solid $color-border;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: $color-font-thin;
+    transition: .4s ease border-color;
+    &:focus {
+        border-color: $color-primary;
+    }
+    &.is-inner {
+        background: $color-background;
+    }
+}

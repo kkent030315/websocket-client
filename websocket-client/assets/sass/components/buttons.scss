@@ -1,0 +1,14 @@
+@import "../variables";
+.normalButton {
+    padding: 15px 25px;
+    color: $color-font;
+    border-radius: 15px;
+    &.primary {
+        color: $color-font-inner;
+        background: $color-primary;
+    }
+    &.error {
+        color: $color-font-inner;
+        background: $color-error;
+    }
+}
