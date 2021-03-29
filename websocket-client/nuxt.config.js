@@ -1,6 +1,6 @@
 export default {
     router: {
-        base: "./websocket-client/",
+        base: "https://www.godeye.club/websocket-client/",
     },
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
